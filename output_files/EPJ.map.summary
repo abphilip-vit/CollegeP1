@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Nov  6 13:31:06 2019
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : EPJ
+Top-level Entity Name : EPJ
+Family : Cyclone IV E
+Total logic elements : 15
+    Total combinational functions : 15
+    Dedicated logic registers : 6
+Total registers : 6
+Total pins : 42
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

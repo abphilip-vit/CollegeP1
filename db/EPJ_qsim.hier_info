@@ -1,0 +1,27 @@
+|EPJ
+clk => state~10.DATAIN
+rst => state~0.OUTPUTSELECT
+rst => state~1.OUTPUTSELECT
+rst => state~2.OUTPUTSELECT
+rst => state~3.OUTPUTSELECT
+rst => state~4.OUTPUTSELECT
+rst => state~5.OUTPUTSELECT
+a[9] => next_state.s4.DATAB
+a[9] => Selector0.IN4
+a[8] => ~NO_FANOUT~
+a[7] => ~NO_FANOUT~
+a[6] => next_state.s2.DATAB
+a[6] => Selector0.IN2
+a[5] => ~NO_FANOUT~
+a[4] => ~NO_FANOUT~
+a[3] => ~NO_FANOUT~
+a[2] => next_state.s1.DATAB
+a[2] => Selector0.IN1
+a[1] => ~NO_FANOUT~
+a[0] => next_state.s3.DATAB
+a[0] => Selector0.IN3
+unlock <= unlock~0.DB_MAX_OUTPUT_PORT_TYPE
+enter => next_state.s_crt.DATAB
+enter => Selector0.IN5
+
+
