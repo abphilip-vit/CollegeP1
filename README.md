@@ -1,1 +1,1 @@
-# College - Digital Lock using Verilog HDL
+# College: Digital Lock using Verilog HDL
